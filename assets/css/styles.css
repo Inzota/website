@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 3rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -103,7 +103,6 @@ img {
   z-index: -1;
 }
 
-.search,
 .login {
   position: fixed;
   left: 0;
@@ -125,11 +124,26 @@ img {
   /* Vertically center the content */
   transition: opacity .4s;
 }
+.search{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-modal);
+  background-color: hsla(230, 75%, 15%, .1);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px); /* For safari */
+  padding: 8rem 1.5rem 0 !important;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .4s;
+}
 
 .search__close,
 .login__close {
   position: absolute;
-  top: 2rem;
+  top: 7vh !important;
   right: 2rem;
   font-size: 1.5rem;
   color: var(--title-color);
