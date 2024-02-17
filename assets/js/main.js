@@ -1,44 +1,24 @@
-/*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+function handleScroll() {
+  const aboutText = document.querySelectorAll('mark')
+  const numofPages = 2
 
-/* Menu show */
-navToggle.addEventListener('click', () =>{
-   navMenu.classList.add('show-menu')
-})
+  const opacityforBlock = (sectionProgress, blockNo) => {
+    const progress = sectionProgress - blockNo
+    if (progress == 0.5 || progress == 1.5) return 0.2
+    return 1
+  }
+  aboutText.forEach((text) => {
+    const textHeight = text.offsetHeight
+    const fullH = window.innerHeight
+    const halfH = fullH / 2
+    const percentY = Math.min(
+      textHeight + halfH,
+      Math.max(-fullH, scrollY - text.offsetTop) + halfH) / textHeight
+    const progress = Math.min(numofPages - 0.5, Math.max(0.5, percentY * numofPages))
 
-/* Menu hidden */
-navClose.addEventListener('click', () =>{
-   navMenu.classList.remove('show-menu')
-})
+    text.style.opacity = opacityforBlock(progress, 0)
+  })
+}
 
-/*=============== SEARCH ===============*/
-const search = document.getElementById('search'),
-      searchBtn = document.getElementById('search-btn'),
-      searchClose = document.getElementById('search-close')
-
-/* Search show */
-searchBtn.addEventListener('click', () =>{
-   search.classList.add('show-search')
-})
-
-/* Search hidden */
-searchClose.addEventListener('click', () =>{
-   search.classList.remove('show-search')
-})
-
-/*=============== LOGIN ===============*/
-const login = document.getElementById('login'),
-      loginBtn = document.getElementById('login-btn'),
-      loginClose = document.getElementById('login-close')
-
-/* Login show */
-loginBtn.addEventListener('click', () =>{
-   login.classList.add('show-login')
-})
-
-/* Login hidden */
-loginClose.addEventListener('click', () =>{
-   login.classList.remove('show-login')
-})
+// Add scroll event listener
+document.addEventListener('scroll', handleScroll);
