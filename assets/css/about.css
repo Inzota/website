@@ -1,0 +1,15 @@
+#highlight {
+  opacity: 10%;
+  transition: opacity 0.4s;
+}
+
+.about {
+  border:none!important;
+  border-radius: 0!important;
+  padding-bottom: 200px!important;
+}
+
+mark {
+  background: none;
+  color: #fff;
+}

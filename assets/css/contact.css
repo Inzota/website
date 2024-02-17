@@ -1,0 +1,64 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+}
+
+.message {
+  height: 30vh!important;
+  border-radius: 10px!important;
+  background: none!important;
+  color: white!important;
+  padding: 10px!important;
+  resize: none!important;
+  border-color: #fff!important;
+  font-family: Syne!important;
+}
+
+.contact-item {
+  height: 2vh;
+  border-radius: 50px;
+  background: none;
+  color: white;
+  padding: 10px;
+  resize: none;
+  border: #fff 1px solid;
+  font-family: Syne;
+}
+
+.submit {
+  border-radius: 30px;
+  background: none;
+  color: white;
+  padding: 10px;
+  resize: none;
+  border: #fff 1px solid;
+  transition: all ease-in-out 200ms;
+  font-family: Syne;
+}
+
+.submit:hover {
+  background: white;
+  color: #000;
+}
+
+.contact {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.private-info {
+  display: flex;
+  gap: 5px;
+}
+
+.private-info input {
+  width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
