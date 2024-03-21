@@ -5,14 +5,8 @@
 @layer base {
   #image {
     background-image: url("/BG.png");
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
     background-size: 100%;
-    background-position: -8px -8px;
-    height: max-content;
+    background-position: 1px 1px;
   }
 
   html {

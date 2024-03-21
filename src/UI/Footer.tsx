@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="grid grid-cols-3 mx-[100px] my-[20px]">
         <div>
           <p className="text-center">
-            <span className="text-xl">Links</span>
+            <span className="text-md sm:text-xl">Links</span>
             <br />
             <a className="text-sm" href="projects">
               Projects
@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
         <div>
           <p className="text-center">
-            <span className="text-xl">Projects</span>
+            <span className="text-md sm:text-xl">Projects</span>
             <br />
             <span className="text-sm">AmeuTutor</span>
             <br />
@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
         <div>
           <p className="text-center">
-            <span className="text-xl">Get in touch</span>
+            <span className="text-md sm:text-xl">Get in touch</span>
             <br />
             <span className="text-sm">LinkedIn</span>
             <br />
@@ -61,7 +61,7 @@ export default function Footer() {
             }}
             type="text"
             placeholder="Enter your e-mail"
-            className="rounded-full bg-[#ffffff] p-2 h-[45px] px-[30px] w-[500px] text-[#000]"
+            className="rounded-full bg-[#ffffff] p-2 h-[45px] px-[30px] w-[350px] sm:w-[500px] text-[#000]"
           />
           <button className="bg-[#924fff] text-sm p-2 rounded-tr-full rounded-br-full rounded-bl-full w-[100px] absolute top-0 right-0 border-none h-[45px]">
             subscribe
@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
       <Divider />
       <div className="flex items-center justify-center">
-        <span className="m-8 text=[#ffffff76]">
+        <span className="m-8 text-sm sm:text-md text=[#ffffff76]">
           Inzota © 2024. All rights reserved
         </span>
       </div>
