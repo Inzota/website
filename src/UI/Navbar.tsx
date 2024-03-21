@@ -30,7 +30,7 @@ export default function TestNav() {
           <a href="/newsletter">Newsletter</a>
         </NavbarItem>
         <NavbarItem>
-          <Button className="border border-[#6b6b6b] bg-[#ffffff13] h-min py-[1px] p-[5px] rounded-full">
+          <Button className="border border-[#6b6b6b40] bg-[#ffffff13] h-min py-[1px] p-[5px] rounded-full">
             Login
           </Button>
         </NavbarItem>
