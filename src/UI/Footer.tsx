@@ -5,7 +5,7 @@ export default function Footer() {
   const [email, setEmail] = useState<string>("");
   return (
     <div className="mt-[200px] rounded-t-3xl bg-[#60606015] pt-[50px]">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mb-10">
         <Image src="/Logo.png" width={70} />
         <span className="text-4xl">inzota</span>
         <span className="text-[#ffffff76]">
