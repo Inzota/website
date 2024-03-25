@@ -35,7 +35,7 @@ export default function Footer() {
             <br />
             <span className="text-sm">Rynth Labs</span>
             <br />
-            <span className="text-sm">More Soon!</span>
+            <span className="text-sm">NuraNote</span>
           </p>
         </div>
         <div>

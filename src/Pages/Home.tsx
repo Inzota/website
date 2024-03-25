@@ -56,10 +56,12 @@ export default function Home() {
         <div className="absolute top-[29%] right-[60%]">
           <p className="text-center mb-4">
             <span className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full text-xs sm:text-md h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
-              Soon!
+              NuraNote
             </span>
           </p>
-          <Card className="bg-[#4edd4e] border border-[#ffffff45] overflow-hidden h-[100px] w-[140px] sm:h-[162px] sm:w-[281px] flex justify-center items-center" />
+          <Card className="bg-[#ffce4e] border border-[#ffffff45] overflow-hidden h-[100px] w-[140px] sm:h-[162px] sm:w-[281px] flex justify-center items-center">
+            <Image src="/nuranote.png" width={100} />
+          </Card>
         </div>
         <div className="absolute top-[20%] left-[50%] translate-x-[-50%] z-20">
           <p className="text-center mb-4 z-[10000]">
