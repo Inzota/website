@@ -6,39 +6,37 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="flex justify-start px-[20px] sm:px-[100px] gap-[25px] sm:gap-[50px] mb-[100px] w-full">
+      <div className="flex justify-start px-[20px] sm:px-[100px] gap-[25px] sm:gap-[50px] my-[35vh] w-full">
         <div className="flex flex-col gap-[20px] sm:gap-[40px]">
           <a href="https://www.linkedin.com/company/inzota">
-            <FaLinkedin className="sm:scale-150" />
+            <FaLinkedin className="scale-125 sm:scale-150" />
           </a>
           <a href="https://www.youtube.com/@inzota">
-            <FaYoutube className="sm:scale-150" />
+            <FaYoutube className="scale-125 sm:scale-150" />
           </a>
           <a>
-            <FaTwitter className="sm:scale-150" />
+            <FaTwitter className="scale-125 sm:scale-150" />
           </a>
           <a>
-            <FaFacebook className="sm:scale-150" />
+            <FaFacebook className="scale-125 sm:scale-150" />
           </a>
         </div>
         <div>
           <p
-            className="text-2xl sm:text-4xl bg-gradient-to-r from-[#ffffff_84.42%] to-[#ffffff30]"
+            className="text-5xl sm:text-7xl bg-gradient-to-r from-[#ffffff_84.42%] to-[#ffffff30]"
             id="motoline-home"
           >
-            Where Innovation meets
-            <br />
-            excellence!
+            Where Innovation meets excellence!
           </p>
           <br />
-          <span className="opacity-75 text-lg sm:text-xl">
-            Change your discord server!
+          <span className="opacity-75 text-xl sm:text-2xl">
+            Endure the realm of the future
           </span>
           <div className="flex mt-[50px] gap-[15px]">
-            <Button className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full h-min py-[6px] w-[100px]">
+            <Button className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full h-min py-[6px] w-[150px] text-md sm:text-lg">
               Invite
             </Button>
-            <Button className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full h-min py-[6px] w-[100px]">
+            <Button className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full h-min py-[6px] w-[150px] text-md sm:text-lg">
               Explore
             </Button>
           </div>
@@ -52,10 +50,10 @@ export default function Home() {
           <br /> Stay tuned for Updates!
         </span>
       </p>
-      <div className="relative h-[40vh]">
+      <div className="relative h-[350px]">
         <div className="absolute top-[29%] right-[60%]">
           <p className="text-center mb-4">
-            <span className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full text-xs sm:text-md h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
+            <span className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full text-md sm:text-lg h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
               NuraNote
             </span>
           </p>
@@ -63,9 +61,9 @@ export default function Home() {
             <Image src="/nuranote.png" width={100} />
           </Card>
         </div>
-        <div className="absolute top-[20%] left-[50%] translate-x-[-50%] z-20">
+        <div className="absolute top-[20%] sm:top-[19%] left-[50%] translate-x-[-50%] z-20">
           <p className="text-center mb-4 z-[10000]">
-            <span className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full text-xs sm:text-md h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
+            <span className="border border-[#81818115] bg-[#606060] bg-opacity-20 rounded-full text-md sm:text-lg h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
               AmeuTutor
             </span>
           </p>
@@ -75,7 +73,7 @@ export default function Home() {
         </div>
         <div className="absolute top-[29%] left-[60%]">
           <p className="text-center mb-4">
-            <span className="border border-[#81818115] bg-[#606060] text-xs sm:text-md bg-opacity-20 rounded-full h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
+            <span className="border border-[#81818115] bg-[#606060] text-md sm:text-lg bg-opacity-20 rounded-full h-min py-[2px] p-[20px] sm:p-[30px] sm:py-[2px]">
               Rynth labs
             </span>
           </p>
@@ -143,12 +141,12 @@ export default function Home() {
                 <br />
               </CardBody>
             </Card>
-            <Card className="w-[150px] sm:w-[200px] rounded-3xl bg-[#00000030] m-5">
+            <Card className="w-[150px] sm:w-[200px] rounded-3xl bg-[#00000030] m-5 sm:m-10">
               <CardBody className="items-center">
-                <div className="bg-[#ffe600] mb-4 w-[80px] sm:w-[100px] aspect-square rounded-full" />
+                <div className="bg-[#ffd700] mb-4 w-[80px] sm:w-[100px] aspect-square rounded-full" />
                 <p className="mb-2 text-md sm:text-xl">Ayan</p>
                 <p className="text-[#ffffff60] text-sm mb-1">
-                  Head Frontend Dev
+                  Head Frontend dev
                 </p>
                 <br />
               </CardBody>
