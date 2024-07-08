@@ -1,6 +1,6 @@
 import { Button } from "@nextui-org/button";
 import { Card, CardBody } from "@nextui-org/card";
-import { Image, Chip } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Home() {
