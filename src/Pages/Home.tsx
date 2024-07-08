@@ -116,9 +116,6 @@ export default function Home() {
                 <p className="text-[#ffffff60] text-sm mb-1">
                   Founder & co-CEO
                 </p>
-                <Chip size="sm" className="text-[11px]">
-                  unavailable
-                </Chip>
               </CardBody>
             </Card>
             <Card className="w-[150px] sm:w-[200px] rounded-3xl bg-[#00000030] m-5 sm:m-10">
