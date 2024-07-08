@@ -32,7 +32,7 @@ jobs:
           path: ./dist
 
   deploy:
-    permission:
+    permissions:
       contents: write
     name: Deploy
     needs: build
