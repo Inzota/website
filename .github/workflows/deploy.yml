@@ -32,6 +32,8 @@ jobs:
           path: ./dist
 
   deploy:
+    permission:
+      contents: write
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
