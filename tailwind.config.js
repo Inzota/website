@@ -11,6 +11,7 @@ export default {
     extend: {},
   },
   darkMode: "class",
+  base: "/inzota-website/",
   plugins: [
     nextui({
       addCommonColors: true,
