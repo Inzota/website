@@ -51,7 +51,7 @@ export default function Footer() {
       <br />
       <div className="flex flex-col items-center mb-10">
         <span className="text-[#ffffff76]">
-          join our newsletter for free! No spam. Ever!
+          Join our newsletter for free! No spam. Ever!
         </span>
         <div className="relative inline-block">
           <input

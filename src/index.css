@@ -5,8 +5,8 @@
 @layer base {
   #image {
     background-image: url("/BG.png");
-    background-size: 100%;
-    background-position: 1px 1px;
+    background-size: 104%;
+    background-position: -1px 1px;
   }
 
   html {
