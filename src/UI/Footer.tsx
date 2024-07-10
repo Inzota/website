@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <br />
-      <div className="flex flex-col items-center mb-10">
+      <div className="flex flex-col items-center mb-10 gap-2">
         <span className="text-[#ffffff76]">
           Join our newsletter for free! No spam. Ever!
         </span>
