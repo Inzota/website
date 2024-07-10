@@ -61,7 +61,7 @@ export default function Footer() {
             }}
             type="text"
             placeholder="Enter your e-mail"
-            className="rounded-full bg-[#ffffff] p-2 h-[45px] px-[30px] w-[350px] sm:w-[500px] text-[#000]"
+            className="rounded-full bg-[#ffffff] p-2 h-[45px] px-[30px] w-[350px] sm:w-[500px] text-[#000] m-3"
           />
           <button className="bg-[#924fff] text-sm p-2 rounded-tr-full rounded-br-full rounded-bl-full w-[100px] absolute top-0 right-0 border-none h-[45px]">
             subscribe
